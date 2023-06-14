@@ -107,7 +107,7 @@ const Home = ({navigation}) => {
     const bookWolverine = {
         id:6,
         bookName: "Wolverine",
-        bookCover: images.Wolverine,
+        bookCover: icons.wolverine,
         rating: 4.5,
         language: "English",
         pageNo: 350,
@@ -783,7 +783,7 @@ item.genre.includes("Action") &&
 
                     <TouchableOpacity 
                     style = {{
-                        position: 'absolute',top: 5, right: 15
+                        position: 'absolute',top: 5, right: 9
                     }}
                     
                     onPress = {()=> console.log("Bookmark")}>
